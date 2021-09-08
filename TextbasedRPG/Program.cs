@@ -1,4 +1,4 @@
-﻿using TextbasedRPG.Managers;
+﻿using System;
 
 namespace TextbasedRPG
 {
@@ -6,9 +6,7 @@ namespace TextbasedRPG
     {
         static void Main(string[] args)
         {
-            GameManager manager = new GameManager();
-            
-            manager.GameLoop();
+            Console.WriteLine("Hello World!");
         }
     }
 }
